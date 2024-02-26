@@ -1,0 +1,136 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* general css */
+
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li,
+nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* header part */
+header {
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: #fff;
+    opacity: .9;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.navbar-brand:hover {
+    color: #f13a11;
+}
+
+.nav-link {
+    color: #fff;
+    opacity: .9;
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #f13a11;
+}
+
+.nav-icon .nav-link {
+    margin: 0;
+}
+
+/*Banner part */
+.gymsoBanner {
+    background-image: url(../image/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: top;
+
+}
+
+.banner-overlay {
+    background-color: #171819;
+    height: 100%;
+    width: 100%;
+    opacity: 0.85;
+    padding: 100px 0;
+}
+
+.banner-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner-text h6 {
+    font-size: 22px;
+    color: #909090;
+    padding: 10px 0;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    color: #fff;
+    letter-spacing: 1px;
+
+
+}
+
+.banner-buttons {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 40px ;
+
+}
+
+.buttonR {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+.buttonR:hover {
+    color: #f13a11;
+}
+
+.buttonL {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #f13a11;
+    font-size: 18px;
+    color: #f13a11;
+    text-transform: uppercase;
+
+}
+
+.buttonL:hover {
+    background-color: #fff;
+}
+
