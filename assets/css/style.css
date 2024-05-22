@@ -1,0 +1,517 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* general css */
+
+body {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li,
+nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* header part */
+header {
+    background-color: #000;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: #fff;
+    opacity: .9;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.navbar-brand:hover {
+    color: #f13a11;
+}
+
+.nav-link {
+    color: #fff;
+    opacity: .9;
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #f13a11;
+}
+
+.nav-icon .nav-link {
+    margin: 0;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+/*Banner part */
+.gymsoBanner {
+    background-image: url(../image/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: top;
+
+}
+
+.banner-overlay {
+    background-color: #171819;
+    height: 100%;
+    width: 100%;
+    opacity: 0.85;
+    padding: 100px 0;
+}
+
+.banner-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner-text h6 {
+    font-size: 22px;
+    color: #909090;
+    padding: 10px 0;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    color: #fff;
+    letter-spacing: 1px;
+
+
+}
+
+.banner-buttons {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 40px;
+
+}
+
+.buttonR {
+    font-size: 18px;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: uppercase;
+}
+
+.buttonR:hover {
+    color: #f13a11;
+}
+
+.buttonL {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid #f13a11;
+    font-size: 18px;
+    color: #f13a11;
+    text-transform: uppercase;
+
+}
+
+.buttonL:hover {
+    background-color: #fff;
+}
+
+/* gymso-heroText part */
+.gymso-heroText {
+    padding: 60px 0;
+    background-color: #171819;
+}
+
+
+.hero-textR h2 {
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+.hero-textR h6 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-textR p {
+    color: #666262;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.hero-button {
+    padding: 20px 0;
+}
+
+.hero-button a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 60px;
+    background-color: #f13a11;
+    transition: .9s;
+}
+
+.hero-button a:hover {
+    background: #fff;
+    color: #f13a11;
+}
+
+.hero-textL {
+    display: inline-block;
+    border-left: 1px solid #909090;
+    padding: 5px 40px;
+
+}
+
+.hero-textL h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px 0;
+
+}
+
+.hero-textL strong {
+    color: #fff;
+}
+
+.hero-textL p {
+    color: #666262;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* about us part */
+.aboutUs {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about-text {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.about-text h2 {
+    color: #171819;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.about-text p {
+    color: #909090;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.team-about {
+    background: #fff;
+    padding: 10px;
+    box-shadow: 6px 0 38px 5px rgba(20, 20, 20, 0.10);
+}
+
+.team-mName h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #171819;
+}
+
+.team-mName h6 {
+    font-size: 16px;
+    color: #171819;
+    font-weight: 500;
+}
+
+.team-social-icon a {
+    color: #666262;
+    font-size: 18px;
+    transition: .9s;
+    margin: 0 5px;
+}
+
+.team-social-icon a :hover {
+    color: #f13a11;
+}
+
+/* training classes part*/
+.training-classes {
+    padding: 60px 0;
+}
+
+.classes-heading h6 {
+    padding-top: 40px;
+    color: #909090;
+    font-size: 22px;
+    text-align: center;
+}
+
+.classes-heading h2 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #000;
+    opacity: .9;
+    padding-bottom: 40px;
+}
+
+.classes-info {
+    padding-bottom: 60px;
+}
+
+.classes-name {
+    position: relative;
+    padding-left: 25px;
+    box-shadow: 6px 0 38px rgba(20, 20, 20, 0.10);
+}
+
+.classes-name h3 {
+    font-size: 28px;
+    color: #171819;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.classes-price {
+    padding-bottom: 20px;
+}
+
+.classes-price span {
+    color: #000;
+    font-weight: 400;
+}
+
+.classes-price span strong {
+    color: #666262;
+    font-size: 16px;
+}
+
+.classes-price p {
+    display: block;
+    padding-top: 18px;
+    font-size: 16px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    background-color: #f13a11;
+    position: absolute;
+    top: 34px;
+    right: 45px;
+}
+
+.classes-text {
+    font-size: 18px;
+    color: #909090;
+}
+
+/* schedules part */
+.schedules {
+    background-color: #171819;
+    padding: 150px 0;
+
+}
+
+.schedules-text {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.schedules-text h3 {
+    font-size: 22px;
+    color: #909090;
+}
+
+.schedules-text h2 {
+    color: #f9f9f9;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.schedules-timetable {
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+tr,
+th,
+td {
+    border: 1px solid #2e3031;
+    text-align: center;
+}
+
+table tr th {
+    background-color: #f13a11;
+    height: 60px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+table tr td {
+    height: 70px;
+    width: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.timetable-colam {
+    background-color: #f13a11;
+    font-size: 12px;
+}
+
+table strong {
+    font-size: 13px;
+    opacity: .9;
+}
+
+table samp {
+    display: block;
+    font-size: 12px;
+    color: #909090;
+}
+
+/* Contact part */
+.Contact {
+    padding: 80px 0;
+}
+
+.form-part {
+    margin: 0 auto;
+}
+
+.form-hedging h2 {
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+    padding: 35px 0;
+}
+
+.Contact input {
+    width: 70%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 15px;
+    border: 1px solid #ced4da;
+    color: #495057;
+}
+
+.Contact textarea {
+    width: 70%;
+
+    height: 150px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 15px;
+    border: 1px solid #ced4da;
+    color: #495057;
+}
+
+.Contact button {
+    width: 70%;
+
+    height: 50px;
+    border: 1px solid #ced4da;
+    background-color: #171819;
+    color: #fff;
+    font-size: 16px;
+    transition: .9s;
+}
+
+.Contact button:hover {
+    background-color: #f13a11;
+}
+
+.contact-text h2 {
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+    padding: 35px 0;
+}
+
+.contact-text p {
+    font-size: 20px;
+    color: #666262;
+    padding: 0 20px;
+}
+
+.contact-text p i {
+    color: #f13a11;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+footer {
+    padding: 50px 0;
+}
+
+.footer-Copyright p {
+    font-size: 16px;
+    color: #666262;
+    padding: 20px;
+}
+
+.footer-contact {
+    padding: 20px 0;
+
+}
+
+.footer-contact a {
+    font-size: 16px;
+    color: #666262;
+}
+
+.footer-contact a i {
+    color: #f13a11;
+    margin: 0 10px;
+}
+
+/* Responsive CSS */
+@media (max-width:767px) {
+    .hero-textL {
+        border: 0;
+        padding: 0;
+    }
+
+}
